@@ -519,13 +519,29 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "TODO",
+			"settings":
+			{
+				"buffer_size": 367,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 288.0,
+		"height": 81.0,
 		"selected_items":
 		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
 			[
 				"less",
 				"Set Syntax: LESS"
@@ -547,10 +563,6 @@
 				"Package Control: List Packages"
 			],
 			[
-				"pack",
-				"Package Control: Upgrade Package"
-			],
-			[
 				"install",
 				"Package Control: Install Package"
 			],
@@ -561,10 +573,6 @@
 			[
 				"jqu",
 				"Set Syntax: jQuery (JavaScript)"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
 			],
 			[
 				"html",
@@ -651,7 +659,11 @@
 	},
 	"console":
 	{
-		"height": 125.0
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
 	},
 	"distraction_free":
 	{
@@ -664,6 +676,7 @@
 	},
 	"file_history":
 	[
+		"/E/GitHub/nodepresentation/TODO",
 		"/C/Users/MartinSvarrer/help.js",
 		"/C/Users/MartinSvarrer/Programming/Sitecore puzzle/README.md",
 		"/C/Users/MartinSvarrer/Programming/Sitecore puzzle/index.html",
@@ -902,8 +915,36 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "TODO",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 367,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								366,
+								366
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PlainTasks/PlainTasks.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -942,6 +983,7 @@
 	{
 		"height": 100.0
 	},
+	"project": "node.sublime-project",
 	"replace":
 	{
 		"height": 0.0
@@ -971,10 +1013,24 @@
 		],
 		"width": 380.0
 	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 256.0,
-	"status_bar_visible": true
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }
