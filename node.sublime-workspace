@@ -523,7 +523,7 @@
 			"file": "TODO",
 			"settings":
 			{
-				"buffer_size": 367,
+				"buffer_size": 423,
 				"line_ending": "Windows"
 			}
 		}
@@ -924,15 +924,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 367,
+						"buffer_size": 423,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								366,
-								366
+								423,
+								423
 							]
 						],
 						"settings":

@@ -6,3 +6,4 @@ Node kan tilgå filsystem og sættes op som server. Så hvad kan node bruges til
 
 "Det er vist noget med at det bruges sammen med de her preprocessing værktøjer, som LESS/SASS, Coffescript/Typescript, JS Lint/-Hint, Unittesting etc." Altså her eksempler på steder man gerne vil kører/processerer text filer uden for browseren.
 
+Vise effektiviteten af NodeJS som server vha Websockets.
