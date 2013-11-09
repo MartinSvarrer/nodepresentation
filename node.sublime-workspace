@@ -4,12 +4,28 @@
 		"selected_items":
 		[
 			[
-				"margin",
-				"margin"
+				"SPAN",
+				"span	Tag"
 			],
 			[
 				"font",
 				"font-size"
+			],
+			[
+				"bold",
+				"bolder"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"script",
+				"script	HTML - Script"
+			],
+			[
+				"margin",
+				"margin"
 			],
 			[
 				"inline",
@@ -58,10 +74,6 @@
 			[
 				"max",
 				"max-height"
-			],
-			[
-				"script",
-				"script"
 			],
 			[
 				"pos",
@@ -502,38 +514,107 @@
 			[
 				"windo",
 				"windowWidth"
-			],
-			[
-				"POS",
-				"position"
-			],
-			[
-				"l",
-				"l	left"
-			],
-			[
-				"_",
-				"_size	Underscore _.size()"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 4290,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/MartinSvarrer/Programming/Test/server.js",
+			"settings":
+			{
+				"buffer_size": 124,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/MartinSvarrer/Programming/Test/package.json",
+			"settings":
+			{
+				"buffer_size": 95,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/MartinSvarrer/AppData/Roaming/npm/node_modules/example/app.js",
+			"settings":
+			{
+				"buffer_size": 157,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/MartinSvarrer/Programming/Test/public/index.html",
+			"settings":
+			{
+				"buffer_size": 143,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Hello world. This is a text.",
+			"file": "/C/Users/MartinSvarrer/Programming/test.txt",
+			"file_size": 28,
+			"file_write_time": 130262493172211960,
+			"settings":
+			{
+				"buffer_size": 28,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "(function () {\n	\n})();",
+			"file": "js/main.js",
+			"file_size": 66,
+			"file_write_time": 130262444151776992,
+			"settings":
+			{
+				"buffer_size": 22,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "libs/reveal/index.html",
+			"settings":
+			{
+				"buffer_size": 13748,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "var fs = require('fs');\nfs.readFile('hello.txt', function (err, data) {\n	if (err) throw err;\n	console.dir(data.toString());\n});",
+			"file": "files/hello.js",
+			"file_size": 131,
+			"file_write_time": 130262582703448715,
+			"settings":
+			{
+				"buffer_size": 127,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 288.0,
+		"height": 58.0,
 		"selected_items":
 		[
-			[
-				"less",
-				"Set Syntax: LESS"
-			],
-			[
-				"build",
-				"Set Syntax: NAnt Build File"
-			],
 			[
 				"instal",
 				"Package Control: Install Package"
@@ -543,16 +624,24 @@
 				"Package Control: Remove Package"
 			],
 			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"build",
+				"Set Syntax: NAnt Build File"
+			],
+			[
 				"package",
 				"Package Control: List Packages"
 			],
 			[
 				"pack",
 				"Package Control: Upgrade Package"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"packages",
@@ -664,6 +753,20 @@
 	},
 	"file_history":
 	[
+		"/C/Users/MartinSvarrer/Programming/Test/helloworld/package.json",
+		"/C/Users/MartinSvarrer/Programming/Test/helloworld/bin/server",
+		"/C/Users/MartinSvarrer/AppData/Roaming/npm/node_modules/example/app.js",
+		"/C/Users/MartinSvarrer/Programming/Test/public/sub.html",
+		"/C/Program Files/nodejs/node_modules/npm/node_modules/fstream/lib/file-writer.js",
+		"/C/Program Files/nodejs/node_modules/npm/README.md",
+		"/C/Program Files/nodejs/node_perfctr_provider.man",
+		"/C/Program Files/nodejs/nodevars.bat",
+		"/C/Program Files/nodejs/node_etw_provider.man",
+		"/C/Users/MartinSvarrer/Programming/nodepresentation/files/hello.js",
+		"/C/Users/MartinSvarrer/Programming/moo.js",
+		"/C/Users/MartinSvarrer/Programming/test.js",
+		"/C/Users/MartinSvarrer/Programming/nodepresentation/js/main.js",
+		"/C/Users/MartinSvarrer/Programming/nodepresentation/css/style.css",
 		"/C/Users/MartinSvarrer/help.js",
 		"/C/Users/MartinSvarrer/Programming/Sitecore puzzle/README.md",
 		"/C/Users/MartinSvarrer/Programming/Sitecore puzzle/index.html",
@@ -795,6 +898,15 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"'",
+			"sup",
+			"MartinSvarrer",
+			"							<",
+			"head",
+			"p",
+			"i",
+			"h2",
+			"small",
 			"emptyMessage",
 			"'},\n",
 			";\n",
@@ -902,8 +1014,273 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 4290,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3231,
+								3231
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1579.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/MartinSvarrer/Programming/Test/server.js",
+					"settings":
+					{
+						"buffer_size": 124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								124,
+								124
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/MartinSvarrer/Programming/Test/package.json",
+					"settings":
+					{
+						"buffer_size": 95,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13,
+								13
+							]
+						],
+						"settings":
+						{
+							"spell_check": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/MartinSvarrer/AppData/Roaming/npm/node_modules/example/app.js",
+					"settings":
+					{
+						"buffer_size": 157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/MartinSvarrer/Programming/Test/public/index.html",
+					"settings":
+					{
+						"buffer_size": 143,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								123,
+								123
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/MartinSvarrer/Programming/test.txt",
+					"settings":
+					{
+						"buffer_size": 28,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28,
+								28
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "js/main.js",
+					"settings":
+					{
+						"buffer_size": 22,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								16
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "libs/reveal/index.html",
+					"settings":
+					{
+						"buffer_size": 13748,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13716,
+								13716
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 8575.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "files/hello.js",
+					"settings":
+					{
+						"buffer_size": 127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								127,
+								127
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

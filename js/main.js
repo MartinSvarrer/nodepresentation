@@ -1,5 +1,5 @@
 (function () {
-	Reveal.initialize({});
-
-
+	Reveal.initialize({
+		history: true
+	});
 })();

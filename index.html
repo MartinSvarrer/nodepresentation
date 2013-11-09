@@ -1,26 +1,122 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="description" content=" Node.js presentation by Martin Svarrer Christensen">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Node.js presentation</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="libs/reveal/css/reveal.css">
-        <link rel="stylesheet" href="libs/reveal/css/theme/default.css" id="theme">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content=" Node.js presentation by Martin Svarrer Christensen">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Node.js presentation</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="libs/reveal/css/reveal.min.css">
+		<link rel="stylesheet" href="libs/reveal/css/theme/default.css" id="theme">
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="libs/reveal/lib/css/zenburn.css">
+		
+		<script src="libs/reveal/lib/js/head.min.js"></script>
+		<script src="libs/reveal/js/reveal.min.js"></script>
 
-        <script src="libs/reveal/js/reveal.min.js"></script>
-    </head>
-    <body>
-        <div class="reveal">
-		    <div class="slides">
-		        <section>Single Horizontal Slide</section>
-		        <section>
-		            <section>Vertical Slide 1</section>
-		            <section>Vertical Slide 2</section>
-		        </section>
-		    </div>
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Node.js</h1>
+					<p>Martin Svarrer Christensen</p>
+				</section>
+				<section>
+					<section>
+						<h2>Hvad er Node.js egentlig?</h2>
+						<p class="fragment roll-in">En JavaScript runtime</p>
+						<p class="fragment roll-in">Blot endnu en måde at eksekvere kode på din computer</p>
+					</section>
+					<section>
+						<h2>Hvad får man ved installation?</h2>
+						<p class="fragment roll-in">Node.js kommandoprompt</p>
+						<p class="fragment roll-in">REPL<small>(Read-Eval-Print-Loop)</small></p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>REPL</h2>
+						<p class="fragment roll-in">Debug konsol</p>
+						<p class="fragment roll-in">Super til at inspicere kode</p>
+					</section>
+					<section>
+						<h3>REPL kommandoer</h3>
+						<ul>
+							<li><code>.help</code> - Få hjælp</li>
+							<li><code>.load</code> - load en js fil</li>
+							<li><code>.save</code> - Gem din REPL session</li>
+							<li><code>.break</code> - Hopper ud af din kode</li>
+							<li><code>console.dir()</code> - lister egenskaber for et objekt</li>
+							<li><code>myObject.</code>&lt;TAB&gt; - lister egenskaber for et objekt</li>
+						</ul>
+						
+					</section>
+					<section>
+						<p>REPL i kommandoprompt:</p>
+						<ul>
+							<li>Åben: Skriv <code>node</code></li>
+							<li>Luk: <code>CTRL+C</code></li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Kommandoprompt</h2>
+					</section>
+					<section>
+						<h3>Naviger til mappe</h3>
+						<p>kommando <code>cd</code>:</p>
+						<pre><code>C:\Users\MartinSvarrer>cd Programming/Test</code></pre>
+						<div class="fragment roll-in">
+							<p>Resultere i:</p>
+							<pre><code>C:\Users\MartinSvarrer\Programming\Test></code></pre>
+						</div>
+					</section>
+					<section>
+						<h3>Kør JS fil med node</h3>
+						<pre><code>C:\Users\MartinSvarrer\Programming\Test>node hello.js</code></pre>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Hello.js</h2>
+						<pre><code>var fs = require('fs');
+fs.readFile('hello.txt', function (err, data) {
+    if (err)
+        throw err;
+    console.dir(data.toString());
+});</code></pre>
+						<div class="fragment roll-in">
+							<p>Bemærk</p>
+							<pre><code>var fs = require('fs');</code></pre>
+						</div>
+					</section>
+					<section>
+						<h3>Moduler</h3>
+						<pre><code>var fs = require('fs');</code></pre>
+						<p>Et modul = en JS fil</p>
+					</section>
+				</section>
+			</div>
 		</div>
-        <script src="js/main.js"></script>
-    </body>
+		<script>
+			Reveal.initialize({
+				history: true,
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'libs/reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'libs/reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'libs/reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'libs/reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'libs/reveal/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'libs/reveal/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+		</script>
+		<!--<script src="js/main.js"></script>-->
+	</body>
 </html>
