@@ -2,10 +2,10 @@
 	"folders":
 	[
 		{
+			"follow_symlinks": true,
 			"path": "/C/Users/MartinSvarrer/Programming/nodepresentation"
-		},
-		{
-			"path": "/C/Users/MartinSvarrer/Programming/Test"
+			"follow_symlinks": true,
+			"path": "E:\\GitHub\\nodepresentation"
 		}
 	]
 }
