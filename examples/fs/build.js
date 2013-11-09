@@ -1,21 +1,25 @@
 // Outputs one file combinig all js files in current folder.
 
 var fs = require('fs'),
-	outputPath = 'output.js';
+	outputName = 'output.js',
+	buildDir = process.argv[2];
 
-fs.readdir('.', function (err, files) {
+if (!buildDir)
+	throw 'No build directory argument found';
+
+fs.readdir(buildDir, function (err, files) {
 	if (err)
 		throw err;
-
+	
 	var buildString = '//File build by custom file builder.\n';
 
-	files.forEach(function (filePath) {
-		var isJsFile = filePath.lastIndexOf('.js') !== -1;
-		if (isJsFile && filePath !== outputPath)
-			buildString += fs.readFileSync(filePath, 'utf8');
+	files.forEach(function (fileName) {
+		var isJsFile = fileName.lastIndexOf('.js') !== -1;
+		if (isJsFile && fileName !== outputName)
+			buildString += fs.readFileSync(buildDir + fileName, 'utf8');
 	})
 
-	fs.writeFile(outputPath, buildString, function (err) {
+	fs.writeFile(buildDir + outputName, buildString, function (err) {
 		if (err)
 			throw err;
 	});
