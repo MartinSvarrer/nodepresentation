@@ -1,11 +1,34 @@
 Tasks:
- ☐ 
+☐ Wrap up file system
+	☐ watch for change in dir
+	☐ download and use node applications
+		☐ browserify
+		☐ grunt
+		☐ weinre
+	☐ How to make a downloadable node application
+
+☐ HTTP request handler
+	☐ Save to database
+	☐ Deploy to server (Nodejitsu)
+
+☐ Node modules
+	☐ create node modules
+	☐ download and use node modules
+	☐ install modules
+
+☐ Unittesting
+	☐ using standard assertions
+	☐ assert frontend code
+	☐ assert backendmcode
 
 
 Notes:
-
 Hvad er node.js?
 En kort beskrivelse af hvad det præcist er og hvad det kan bruges til.
+Hvilke miljøer node lever i vs browseren.
+
+Hvordan man arbejder i disse miljøer.
+
 Hvorfor node.js relevant for en frontend developer.
 
 Vise eksempel hvor node.js bruges lokalt.
