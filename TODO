@@ -1,6 +1,6 @@
 Tasks:
 ☐ Wrap up file system
-	☐ watch for change in dir
+	✔ watch for change in dir @done (13-11-10 14:46)
 	☐ download and use node applications
 		☐ browserify
 		☐ grunt
@@ -8,19 +8,25 @@ Tasks:
 	☐ How to make a downloadable node application
 
 ☐ HTTP request handler
+	✔ Create server @done (13-11-10 17:26)
+	✔ Serve static page @done (13-11-10 19:38)
+	✔ Use connect module @done (13-11-10 19:38)
+	✔ Use express module - and create service to send data to. @done (13-11-10 23:14)
+	✔ Create ajax request handler @done (13-11-10 23:15)
+		✔ get @done (13-11-11 20:44)
+		☐ post
 	☐ Save to database
 	☐ Deploy to server (Nodejitsu)
 
 ☐ Node modules
 	☐ create node modules
-	☐ download and use node modules
-	☐ install modules
+	✔ download and use node modules @done (13-11-10 20:15)
+	☐ Packages
 
-☐ Unittesting
-	☐ using standard assertions
-	☐ assert frontend code
-	☐ assert backendmcode
 
+
+Node setup:
+	☐ Setting the startup directory
 
 Notes:
 Hvad er node.js?

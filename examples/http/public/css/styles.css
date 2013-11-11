@@ -1,0 +1,51 @@
+body {
+	background: #038B8B;
+}
+
+.content {
+	width: 500px;
+	margin: 300px auto 0 auto;
+}
+
+.info {
+	font-size: 30px;
+	font-family: Helvetica;
+	margin-left: 30px;
+	color: #F09979;
+	text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.todoinput {
+	width: 434px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 30px;
+	border: 3px solid #F09979;
+	border-radius:25px;
+	background: #F1EEC9;
+	padding: 0 30px;
+	color: #026675;
+	outline: none;
+	font-family: Helvetica;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.todoinput:focus {
+	color: #004158;
+}
+
+.submit {
+	line-height: 20px;
+	font-size: 20px;
+	border: 3px solid #026675;
+	border-radius:15px;
+	background: #004158;
+	padding: 5px 20px;
+	color: #F1EEC9;
+	outline: none;
+	font-family: Helvetica;
+	box-shadow: 1px 1px 6px rgba(0,0,0,0.5);
+	float: right;
+	margin: 30px;
+	cursor: pointer;
+}
