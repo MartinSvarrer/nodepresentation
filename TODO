@@ -1,11 +1,11 @@
 Tasks:
 ☐ Wrap up file system
 	✔ watch for change in dir @done (13-11-10 14:46)
-	☐ download and use node applications
-		☐ browserify
-		☐ grunt
-		☐ weinre
-	☐ How to make a downloadable node application
+	✘ download and use node applications @cancelled (13-11-12 20:07)
+		✘ browserify @cancelled (13-11-12 20:07)
+		✘ grunt @cancelled (13-11-12 20:07)
+		✘ weinre @cancelled (13-11-12 20:07)
+	✘ How to make a downloadable node application @cancelled (13-11-12 20:07)
 
 ☐ HTTP request handler
 	✔ Create server @done (13-11-10 17:26)
@@ -20,22 +20,25 @@ Tasks:
 ☐ Serverside templates
 	☐ Creating dynamaic pages 
 
-☐ Sharing code 
+✘ Sharing code @cancelled (13-11-12 20:08)
 
 ✔ Save to database @done (13-11-12 19:52)
 
-☐ Deploy to server (Nodejitsu)
+✘ Deploy to server (Nodejitsu) @cancelled (13-11-12 20:08)
 
 ☐ Node modules
 	✔ create node modules @done (13-11-12 19:52)
-	☐ Package.json
+	✘ Package.json @cancelled (13-11-12 20:08)
 
 ☐ NPM
 	 ✔ download and use node modules @done (13-11-10 20:15) (Express)
+	 ☐ install
+	 ☐ install local vs global
 
 
 Node setup:
 	✔ Setting the startup directory @done (13-11-12 19:52)
+
 
 Notes:
 Hvad er node.js?

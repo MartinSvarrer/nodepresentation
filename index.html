@@ -32,18 +32,78 @@
 						<p class="fragment roll-in">En JavaScript runtime</p>
 						<p class="fragment roll-in">Blot endnu en måde at eksekvere kode på din computer</p>
 					</section>
+					
 					<section>
-						<h2>Hvad får man ved installation?</h2>
+						<h3>Javascript i browseren vs Node</h3>
+						<table>
+							<tr>
+								<th>Miljø</th>
+								<th>Top level scope</th>
+								<th>API</th>
+							</tr>
+							<tr>
+								<td>Browser</td>
+								<td>Global</td>
+								<td>DOM</td>
+							</tr>
+							<tr>
+								<td>Process</td>
+								<td>Lokalt</td>
+								<td>Modules</td>
+							</tr>
+						</table>
+					</section>
+
+					<section>
+						<h3>Globale browser/DOM objekter</h3>
+						<ul>
+							<li>window</li>
+							<li>document</li>
+						</ul>
+					</section>
+
+					<section>
+						<h3>Globale node objekter</h3>
+						<ul>
+							<li>process</li>
+							<li>module</li>
+							<li>exports</li>
+							<li>require()</li>
+							<li>__filename</li>
+							<li>__dirname</li>
+						</ul>
+					</section>
+
+					<section>
+						<h3>Nogle node standard moduler</h3>
+						<p>Alle moduler kan hentes ved at kalde require('navn')</p>
+						<ul>
+							<li>File system</li>
+							<li>http</li>
+							<li>https</li>
+							<li>path</li>
+							<li>etc..</li>
+						</ul>
+					</section>
+
+				</section>
+
+				<section>
+					<section>
+						<h2>Lokal node opsætning</h2>
+					</section>
+					<section>
+						<h3>Hvad får man ved installation?</h3>
 						<p class="fragment roll-in">Node.js kommandoprompt</p>
 						<p class="fragment roll-in">REPL<small>(Read-Eval-Print-Loop)</small></p>
 					</section>
-				</section>
-				<section>
+
 					<section>
-						<h2>REPL</h2>
+						<h3>REPL</h3>
 						<p class="fragment roll-in">Debug konsol</p>
 						<p class="fragment roll-in">Super til at inspicere kode</p>
 					</section>
+
 					<section>
 						<h3>REPL kommandoer</h3>
 						<ul>
@@ -54,8 +114,8 @@
 							<li><code>console.log()</code> - lister egenskaber for et objekt</li>
 							<li><code>myObject.</code>&lt;TAB&gt; - lister egenskaber for et objekt</li>
 						</ul>
-						
 					</section>
+
 					<section>
 						<p>REPL i kommandoprompt:</p>
 						<ul>
@@ -63,61 +123,123 @@
 							<li>Luk: <code>CTRL+C</code></li>
 						</ul>
 					</section>
-				</section>
-				<section>
+
 					<section>
 						<h2>Kommandoprompt</h2>
 					</section>
+
 					<section>
-						<h3>Naviger til mappe</h3>
-						<p>kommando <code>cd</code>:</p>
-						<pre><code>C:\Users\MartinSvarrer>cd Programming/Test</code></pre>
-						<div class="fragment roll-in">
-							<p>Resultere i:</p>
-							<pre><code>C:\Users\MartinSvarrer\Programming\Test></code></pre>
-						</div>
+						<h3>Brugbare kommandoer</h3>
+						<p>Naviger til mappe: <code>cd <i>mappe/undermappe</i></code></p>
+						<p>Luk node genvej: <code>CTRL + C</code></p>
 					</section>
+
 					<section>
 						<h3>Kør JS fil med node</h3>
-						<pre><code>C:\Users\MartinSvarrer\Programming\Test>node hello.js</code></pre>
+						<p>Javascript filen behøver ikke at have noget indhold</p>
+						<p><pre><code>C:\Users\MartinSvarrer>node hello.js</code></pre></p>
 					</section>
 				</section>
+				
 				<section>
 					<section>
-						<h2>Hello.js</h2>
-						<pre><code>var fs = require('fs');
-fs.readFile('hello.txt', function (err, data) {
-    if (err)
-        throw err;
-    console.log(data.toString());
-});</code></pre>
-						<div class="fragment roll-in">
-							<p>Bemærk</p>
-							<pre><code>var fs = require('fs');</code></pre>
-						</div>
+						<h2>File system</h2>
 					</section>
+
 					<section>
-						<h3>Moduler</h3>
-						<pre><code>var fs = require('fs');</code></pre>
-						<p>Et modul = en JS fil</p>
+						<p>Alle node eksempler kan findes under <i>'/examples/fs/'</i></p>
+						<p><small><i>read.js, write.js, modify.js, append.js, build.js, change.js</i></small></p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Modules</h2>
+					</section>
+
+					<section>
+						<p>1 fil = 1 modul</p>
+					</section>
+
+					<section>
+						<p><code>require(<i>'./navn'</i>)</code></p>
+						<p><i>navn.js, navn.json og til sidst navn.node</i></p>
+					</section>
+
+					<section>
+						<p><code>require(<i>'navn'</i>)</code></p>
+						<p>Standard eller installeret modul</p>
+					</section>
+
+					<section>
+						<p><code>exports</code> bruges til at eksponere funktioner</p>
+						<p><small>Eksempel: <i>/examples/modules/foo.js</i></small></p>
+					</section>
+
+					<section>
+						<p><code>module.exports</code> bruges til at eksponere ét objekt</p>
+						<p><small>Eksempel: <i>/examples/modules/bar.js</i></small></p>
+					</section>
+
+					<section>
+						<p>Alle modules eksempler kan findes under <i>'/examples/modules/'</i></p>
+						<p><small><i>app.js, foo.js, bar.js</i></small></p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>HTTP</h2>
+					</section>
+
+					<section>
+						<p>Oprette en server</p>
+						<p><small>Eksempel: <i>/examples/http/server.js og /examples/http/static.js</i></small></p>
+					</section>
+
+					<section>
+						<h3>Connect</h3>
+						<p>Middleware framework</p>
+						<p>inkludere 18 standard middleware:</p>
+						<ul>
+							<li>Statiske filer</li>
+							<li>JSON parser</li>
+							<li>Favicon</li>
+							<li>Request body parser</li>
+							<li>Sessions</li>
+							<li>etc..</li>
+						</ul>
+						<p><small>Eksempel: <i>/examples/http/connect.js</i></small></p>
+					</section>
+
+					<section>
+						<h3>Express</h3>
+						<p>Bygget ovenpå connect</p>
+						<p>Web application framework</p>
+						<p>Giver mulighed for nemt at håndtere requests og reponse:</p>
+						<ul>
+							<li>GET</li>
+							<li>POST</li>
+							<li>Cookies</li>
+							<li>etc..</li>
+						</ul>
+						<p><small><i>express.js, get.js, post.js</i></small></p>
+					</section>
+
+					<section>
+						<h3>Socket.IO</h3>
+						<p>Gør det super nemt at arbejde med WebSockets</p>
+						<p><small><i>socket.js, socketdata.js</i></small></p>
+					</section>
+
+					<section>
+						<p>Alle http eksempler kan findes under <i>'/examples/http/'</i></p>
+						<p>Matchende HTML filer findes under <i>'examples/http/public'</i></p>
+						<p><small><i>server.js, static.js, connect.js, express.js, get.js, post.js, socket.js, socketdata.js, datamodule.js</i></small></p>
 					</section>
 				</section>
 			</div>
 		</div>
-		<script>
-			Reveal.initialize({
-				history: true,
-				// Optional libraries used to extend on reveal.js
-				dependencies: [
-					{ src: 'libs/reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'libs/reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'libs/reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'libs/reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'libs/reveal/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-					{ src: 'libs/reveal/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
-				]
-			});
-		</script>
-		<!--<script src="js/main.js"></script>-->
+		<script src="js/main.js"></script>
 	</body>
 </html>
