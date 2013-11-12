@@ -1,13 +1,11 @@
 Tasks:
-☐ Wrap up file system
+✔ File system @done (13-11-12 23:49)
+	✔ read file @done (13-11-12 23:50)
+	✔ write file @done (13-11-12 23:50)
+	✔ store data in json file @done (13-11-12 23:51)
 	✔ watch for change in dir @done (13-11-10 14:46)
-	✘ download and use node applications @cancelled (13-11-12 20:07)
-		✘ browserify @cancelled (13-11-12 20:07)
-		✘ grunt @cancelled (13-11-12 20:07)
-		✘ weinre @cancelled (13-11-12 20:07)
-	✘ How to make a downloadable node application @cancelled (13-11-12 20:07)
-
-☐ HTTP request handler
+	
+✔ HTTP request handler @done (13-11-12 20:09)
 	✔ Create server @done (13-11-10 17:26)
 	✔ Serve static page @done (13-11-10 19:38)
 	✔ Use connect module @done (13-11-10 19:38)
@@ -17,8 +15,8 @@ Tasks:
 		✔ post @done (13-11-11 21:39)
 		✔ Websockets @done (13-11-11 22:50)
 
-☐ Serverside templates
-	☐ Creating dynamaic pages 
+✘ Serverside templates @cancelled (13-11-12 23:49)
+	✘ Creating dynamaic pages @cancelled (13-11-12 23:49)
 
 ✘ Sharing code @cancelled (13-11-12 20:08)
 
@@ -28,16 +26,11 @@ Tasks:
 
 ☐ Node modules
 	✔ create node modules @done (13-11-12 19:52)
-	✘ Package.json @cancelled (13-11-12 20:08)
-
+	
 ☐ NPM
-	 ✔ download and use node modules @done (13-11-10 20:15) (Express)
-	 ☐ install
-	 ☐ install local vs global
-
-
-Node setup:
-	✔ Setting the startup directory @done (13-11-12 19:52)
+	☐ Install modules
+	☐ Install local vs global
+	☐ Package.json
 
 
 Notes:
