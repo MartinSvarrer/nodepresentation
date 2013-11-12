@@ -4,7 +4,7 @@ body {
 
 .content {
 	width: 500px;
-	margin: 300px auto 0 auto;
+	margin: 30px auto 0 auto;
 }
 
 .info {
@@ -48,4 +48,20 @@ body {
 	float: right;
 	margin: 30px;
 	cursor: pointer;
+}
+
+.inputInfo {
+	color: #F1EEC9;
+	font-family: Helvetica;
+	margin-left: 30px;
+	font-size: 14px;
+	height: 14px;
+}
+
+.dataList {
+	width: 434px;
+	border: 3px solid #026675;
+	background: #004158;
+	color: #F1EEC9;
+	clear: both;
 }
