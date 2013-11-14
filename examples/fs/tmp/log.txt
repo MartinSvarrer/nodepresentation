@@ -1,0 +1,13 @@
+rename test.js
+rename null
+rename .subldf1.tmp
+rename test.js
+change .subldf1.tmp
+rename test.js~RF1e1b46.TMP
+rename null
+change test.js~RF1e1b46.TMP
+change .subldf1.tmp
+rename null
+rename test.js
+change test.js
+rename null

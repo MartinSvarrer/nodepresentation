@@ -24,7 +24,7 @@ Tasks:
 
 ✘ Deploy to server (Nodejitsu) @cancelled (13-11-12 20:08)
 
-☐ Node modules
+✔ Node modules @done (13-11-12 23:53)
 	✔ create node modules @done (13-11-12 19:52)
 	
 ☐ NPM
